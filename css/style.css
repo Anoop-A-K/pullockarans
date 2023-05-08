@@ -574,12 +574,13 @@ h3 {
   display: inline-block;
 }
 .header-area .main-header-area .book_room .socail_links ul li a {
-  color: #a8a7a0;
+  color: black;
+  /* color: #a8a7a0; */
   margin: 0 10px;
   font-size: 15px;
 }
 .header-area .main-header-area .book_room .socail_links ul li a:hover {
-  color: #fff;
+  color: black;
 }
 .header-area .main-header-area .book_room .book_btn {
   margin-left: 30px;
@@ -590,7 +591,7 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   border: 1px solid transparent;
-  color: #fff;
+  color: black;
 }
 .header-area .main-header-area .book_room .book_btn a:hover {
   background: #fff;
@@ -617,7 +618,7 @@ h3 {
   }
 }
 .header-area .main-header-area .main-menu ul li a {
-  color: #fff;
+  color: black;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 600;
@@ -653,7 +654,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li a::before {
   position: absolute;
   content: "";
-  background: #fff;
+  background: black;
   width: 100%;
   height: 2px;
   bottom: 0;
@@ -674,7 +675,7 @@ h3 {
   transform: scaleX(1);
 }
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #fff;
+  color: black;
 }
 .header-area .main-header-area .main-menu ul li .submenu {
   position: absolute;
@@ -736,7 +737,7 @@ h3 {
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   padding: 10px 150px;
-  background: #484848;
+  background: #c9c9c9;
 }
 @media (max-width: 767px) {
   .header-area .main-header-area.sticky {
@@ -1409,7 +1410,7 @@ h3 {
   transform: scaleX(1.1);
 }
 #test-form .white-popup-block .popup_inner .gj-datepicker span {
-  color: red;
+  color: black;
 }
 #test-form .white-popup-block input {
   width: 100%;
