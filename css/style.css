@@ -359,6 +359,7 @@ h3 {
   font-weight: 400;
   line-height: 56px;
   color: #1f1f1f;
+  padding-bottom: 60px;
 }
 @media (max-width: 767px) {
   .section_title h3 {
@@ -577,7 +578,7 @@ h3 {
   color: black;
   /* color: #a8a7a0; */
   margin: 0 10px;
-  font-size: 15px;
+  font-size: 20px;
 }
 .header-area .main-header-area .book_room .socail_links ul li a:hover {
   color: black;
@@ -893,6 +894,10 @@ h3 {
 .about_info_area {
   padding-left: 387px;
   margin-top: 50px;
+}
+
+.about_info_below_section{
+  padding: 15px 15px 0;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .about_info_area {
@@ -1499,7 +1504,8 @@ h3 {
 }
 
 .footer .footer_top .footer_widget p.footer_text {
-  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
   color: #bababa;
   margin-bottom: 23px;
   font-weight: 400;
@@ -1589,7 +1595,8 @@ h3 {
   color: #fff;
 }
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.png);
+  background-image: url(../img/banner/bradcam.jpg);
+  height: 1vh;
 }
 .breadcam_bg_1 {
   background-image: url(../img/banner/bradcam2.png);
@@ -3562,6 +3569,14 @@ h6 {
   padding: 40px 30px;
   background: #fbf9ff;
   margin-top: 50px;
+}
+
+.navLogo{
+  width:60px;
+}
+
+.mobile_no{
+  font-family: Arial, Helvetica, sans-serif;
 }
 @media (max-width: 600px) {
   .single-post-area .blog-author {
