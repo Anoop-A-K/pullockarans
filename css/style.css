@@ -492,7 +492,8 @@ h3 {
   width: 100%;
   top: 0;
   z-index: 9;
-  padding-top: 28px;
+  padding: 15px;
+  background-color: rgb(249, 249, 249,0.4);
 }
 @media (max-width: 767px) {
   .header-area {
@@ -619,7 +620,8 @@ h3 {
   }
 }
 .header-area .main-header-area .main-menu ul li a {
-  color: black;
+  color: balck;
+  /* text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; */
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 600;
@@ -738,7 +740,8 @@ h3 {
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   padding: 10px 150px;
-  background: #c9c9c9;
+  background-color: rgb(249, 249, 249);
+
 }
 @media (max-width: 767px) {
   .header-area .main-header-area.sticky {
@@ -775,12 +778,15 @@ h3 {
   background-repeat: no-repeat;
 }
 .slider_area .single_slider .slider_text h3 {
+  /* color: #ffffff; */
   color: #ffffff;
+  /* text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; */
   font-family: "Raleway", sans-serif;
   font-size: 68px;
   text-transform: capitalize;
   letter-spacing: 2px;
   font-weight: 400;
+  margin-top: -120px;
   margin-bottom: 4px;
 }
 @media (max-width: 767px) {
@@ -889,7 +895,19 @@ h3 {
   margin-left: 10px;
 }
 .about_bg_1 {
-  background-image: url(../img/banner/about_banner.png);
+  background-image: url(../img/banner/about_banner1.jpg);
+}
+.about_bg_2 {
+  background-image: url(../img/banner/about_banner2.jpg);
+}
+.about_bg_3 {
+  background-image: url(../img/banner/about_banner3.jpg);
+}
+.about_bg_4 {
+  background-image: url(../img/banner/about_banner4.jpg);
+}
+.about_bg_5 {
+  background-image: url(../img/banner/about_banner5.jpg);
 }
 .about_info_area {
   padding-left: 387px;
@@ -1596,13 +1614,14 @@ h3 {
 }
 .breadcam_bg {
   background-image: url(../img/banner/bradcam.jpg);
-  height: 1vh;
+  height: 100vh;
 }
 .breadcam_bg_1 {
-  background-image: url(../img/banner/bradcam2.png);
+  background-image: url(../img/banner/bradcam.jpg);
 }
 .breadcam_bg_2 {
-  background-image: url(../img/banner/bradcam3.png);
+  background-image: url(../img/banner/about_banner5.jpg);
+  height: 100vh;
 }
 .bradcam_area {
   padding: 170px;
@@ -1616,11 +1635,31 @@ h3 {
     padding: 150px 0;
   }
 }
+
+.contact_map h2{
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.contact_map iframe{
+  width: 100%;
+  height: 70vh;
+  padding-bottom: 50px;
+}
 .bradcam_area h3 {
   font-size: 60px;
   color: #fff;
   font-weight: 400;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
+  margin-top: -120px;
+  text-transform: capitalize;
+}
+.bradcam_area h2 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 50px;
+  /* margin-top: -120px; */
   text-transform: capitalize;
 }
 @media (max-width: 767px) {
@@ -1755,15 +1794,24 @@ h3 {
   font-size: 27px;
 }
 .contact-info .media-body h3 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   margin-bottom: 0;
   font-size: 16px;
   color: #2a2a2a;
 }
+/* .footer .footer_top .footer_widget p.footer_text {
+  font-size: 18px;
+  color: #bababa;
+  margin-bottom: 23px;
+  font-weight: 400;
+  line-height: 28px;
+} */
 .contact-info .media-body h3 a:hover {
   color: #ff5e13;
 }
 .contact-info .media-body p {
+  font-family: Arial, Helvetica, sans-serif;
   color: #8a8a8a;
 }
 .contact-title {
