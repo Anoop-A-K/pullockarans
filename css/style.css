@@ -11,6 +11,57 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
+
+/* for gallery start */
+.intro { 
+  padding: 70px 50px;
+  text-align: center; 
+  font-family: Arial;
+}
+
+h2 { 
+  font-size: 36px;
+}
+
+p { 
+  font-size: 14pt;
+}
+
+#image-gallery { 
+  width: 60%; 
+  margin: 0 auto;
+}
+
+#current-image { 
+  width: 100%;
+} 
+
+#image-thumbs { 
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px;
+}
+div.scroll {
+  margin: 4px, 4px;
+  padding: 4px;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.thumb { 
+  width: 80px; 
+  height: 80px; 
+  object-fit: cover; 
+  margin-right: 10px; 
+  cursor: pointer;
+}
+
+.thumb:hover{
+  transform:scale(1.2);
+}
+/* for gallery end */
+
 body {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
@@ -775,6 +826,7 @@ h3 {
 .slider_area .single_slider {
   height: 100vh;
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 .slider_area .single_slider .slider_text h3 {
