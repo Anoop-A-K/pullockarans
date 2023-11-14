@@ -28,8 +28,18 @@ p {
 }
 
 #image-gallery { 
-  width: 60%; 
+  justify-content: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 80%; 
   margin: 0 auto;
+}
+
+.single-gallery img{
+  width: 200px;
 }
 
 #current-image { 
@@ -1695,6 +1705,7 @@ h3 {
   font-size: 27px;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top: -100px;
 }
 .contact_map iframe{
   width: 100%;
