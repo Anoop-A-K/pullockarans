@@ -38,7 +38,8 @@ p {
   margin: 0 auto;
 }
 
-.single-gallery img{
+.single-gallery a img,
+#image-gallery a img{
   width: 200px;
 }
 
@@ -828,10 +829,10 @@ h3 {
   padding: 0;
 }
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/banner.webp);
 }
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/banner/banner2.webp);
 }
 .slider_area .single_slider {
   height: 100vh;
@@ -957,19 +958,19 @@ h3 {
   margin-left: 10px;
 }
 .about_bg_1 {
-  background-image: url(../img/banner/about_banner1.jpg);
+  background-image: url(../img/banner/about_banner1.webp);
 }
 .about_bg_2 {
-  background-image: url(../img/banner/about_banner2.jpg);
+  background-image: url(../img/banner/about_banner2.webp);
 }
 .about_bg_3 {
-  background-image: url(../img/banner/about_banner3.jpg);
+  background-image: url(../img/banner/about_banner3.webp);
 }
 .about_bg_4 {
-  background-image: url(../img/banner/about_banner4.jpg);
+  background-image: url(../img/banner/about_banner4.webp);
 }
 .about_bg_5 {
-  background-image: url(../img/banner/about_banner5.jpg);
+  background-image: url(../img/banner/about_banner5.webp);
 }
 .about_info_area {
   padding-left: 387px;
@@ -1168,7 +1169,7 @@ h3 {
   transform: scale(1.1);
 }
 .video_bg {
-  background-image: url(../img/video/video.jpg);
+  background-image: url(../img/video/video.webp);
 }
 .video_area {
   padding: 250px 0;
@@ -1675,14 +1676,14 @@ h3 {
   color: #fff;
 }
 .breadcam_bg {
-  background-image: url(../img/banner/bradcam.jpg);
+  background-image: url(../img/banner/bradcam.webp);
   height: 100vh;
 }
 .breadcam_bg_1 {
-  background-image: url(../img/banner/bradcam.jpg);
+  background-image: url(../img/banner/bradcam.webp);
 }
 .breadcam_bg_2 {
-  background-image: url(../img/banner/about_banner5.jpg);
+  background-image: url(../img/banner/about_banner5.webp);
   height: 100vh;
 }
 .bradcam_area {
